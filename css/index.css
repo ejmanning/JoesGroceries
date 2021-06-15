@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  background-color: #4376FF;
+  padding: 4%;
+}
+
+header h1 {
+  color: white;
+  font-size: 350%;
+}
