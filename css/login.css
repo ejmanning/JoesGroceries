@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #4376FF;
+}
+
+header h1 {
+  color: white;
+  font-size: 350%;
+  -webkit-text-stroke: 0.8px black; /* width and color */
+  padding: 10%;
+}
+
+form {
+  background-color: rgba(255, 216, 0, 0.8);
+  padding: 5%;
+  width: 70%;
+  margin: auto;
+}
+
+form input[type='text'], form input[type='password'] {
+  text-align: left;
+}
+
+form button {
+  background-color: #4376FF;
+  color: white;
+  padding: 1%;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+form * {
+  margin: 1%;
+}

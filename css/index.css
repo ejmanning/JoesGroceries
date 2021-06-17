@@ -4,14 +4,56 @@
 
 body {
   margin: auto;
+  background-color: #f5f5f5;
 }
 
 header {
   background-color: #4376FF;
-  padding: 4%;
 }
 
 header h1 {
   color: white;
   font-size: 350%;
+  -webkit-text-stroke: 0.8px black; /* width and color */
+  padding: 10%;
+  margin-top: 20%;
+}
+
+.welcomeBanner {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+main {
+  padding-top: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+main a button {
+  margin-bottom: 10%;
+  background-color: rgba(255, 216, 0, 0.8);
+  padding: 5%;
+  border-radius: 40px;
+  color: white;
+  -webkit-text-stroke: 0.8px black; /* width and color */
+  font-size: 150%;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+main a button:hover {
+  background-color: rgba(255, 216, 0, 1);
+  color: black;
+  -webkit-text-stroke: 0px black; /* width and color */
+
 }
