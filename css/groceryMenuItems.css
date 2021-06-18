@@ -16,7 +16,6 @@ header h1 {
   color: white;
   font-size: 350%;
   -webkit-text-stroke: 0.8px black; /* width and color */
-  font-family: cursive;
 }
 
 main {
@@ -83,4 +82,17 @@ main button.add {
   background-color: #4376FF;
   color: white;
   padding: 5%;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 80%;
+  }
+  main .item form {
+    display: block;
+  }
+
+  main .item form input {
+    margin: auto;
+  }
 }

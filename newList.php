@@ -35,6 +35,8 @@ if (isset($_POST['Save'])) {
           if($listDataArray['status'] == "current") {
             if($list->getListInfo($listDataArray['status'], $listDataArray['listDate'])) {
               $listID = $list->getListInfo($listDataArray['status'], $listDataArray['listDate']);
+              unset($_SESSION['currentList']);
+              unset($_SESSION['currentListID']);
               $_SESSION['currentList'] = $listDataArray['listDate'];
               $_SESSION['currentListID'] = $listID;
               header("location: groceryMenu.php");
