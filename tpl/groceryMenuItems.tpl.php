@@ -30,7 +30,7 @@
               <input name="itemID" type="hidden" value="<?php echo $itemData['itemID'];?>" />
               <input name="checked" type="hidden" value="" />
               <input name="listID" type="hidden" value="<?php echo $_SESSION['currentListID']; ?>" />
-              <span><?php echo $itemData['itemName']; ?></span>
+              <span class="itemName"><?php echo $itemData['itemName']; ?></span>
               <input type="submit" value="Add" name="Add">
             </form>
           </div><br>

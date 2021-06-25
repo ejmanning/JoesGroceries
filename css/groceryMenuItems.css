@@ -35,6 +35,11 @@ main .item form {
   justify-content: center;
 }
 
+main .item form .itemName {
+  font-size: 120%;
+  font-weight: bold;
+}
+
 main input[type="number"] {
   width: 40px;
 }
